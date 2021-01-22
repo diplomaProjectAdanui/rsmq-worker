@@ -17,7 +17,7 @@ jobs:
         run: npm i
 
       - name: Install grunt
-        run: npm install grunt
+        run: npm install grunt coffeescript
 
       - name: Grunt Build
         run: npx grunt build
