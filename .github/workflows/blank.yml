@@ -21,3 +21,9 @@ jobs:
 
       - name: Grunt Build
         run: npx grunt build
+      
+      - name: Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: generated-index
+          path: index.js
