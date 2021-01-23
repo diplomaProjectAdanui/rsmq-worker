@@ -1,10 +1,10 @@
 {
   "name": "rsmq-worker-ls",
-  "version": "0.6.2-ls",
-  "description": "RSMQ helper to simply implement a worker around the message queue",
+  "version": "0.6.3-ls",
+  "description": "An updated fork of RSMQ worker",
   "keywords": [],
   "homepage": "https://github.com/mpneuried/rsmq-worker",
-  "bugs": "https://github.com/mpneuried/rsmq-worker/issues",
+  "bugs": "https://github.com/ladisalves/rsmq-worker/issues",
   "author": {
     "name": "mpneuried",
     "email": "",
