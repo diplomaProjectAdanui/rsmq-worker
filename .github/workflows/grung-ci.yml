@@ -25,7 +25,7 @@ jobs:
       - name: Artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: generated-index
+          name: compiled-index-lib
           path: |
             index.js
             lib/*
