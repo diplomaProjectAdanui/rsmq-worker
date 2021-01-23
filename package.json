@@ -1,6 +1,6 @@
 {
-  "name": "rsmq-worker",
-  "version": "0.5.2",
+  "name": "rsmq-worker-ls",
+  "version": "0.6.1-ls",
   "description": "RSMQ helper to simply implement a worker around the message queue",
   "keywords": [],
   "homepage": "https://github.com/mpneuried/rsmq-worker",
@@ -13,7 +13,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mpneuried/rsmq-worker.git"
+    "url": "https://github.com/ladisalves/rsmq-worker"
   },
   "scripts": {
     "test": "COFFEECOV_INIT_ALL=false mocha --timeout 5000 --compilers coffee:coffee-script/register --require coffee-coverage/register-istanbul _src/test/main.coffee -R spec",
@@ -25,6 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "^3.2.0",
+    "coffeescript": "^2.5.1",
     "lodash": "^4.17.20",
     "mpbasic": "^0.0.18",
     "rsmq": "^0.12.2"
