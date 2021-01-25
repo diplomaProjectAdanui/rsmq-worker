@@ -1,6 +1,6 @@
 # RSMQ-WORKER-LS
 
-For of https://www.npmjs.com/package/rsmq-worker without hiredis dependency. 
+Fork of https://www.npmjs.com/package/rsmq-worker without hiredis dependency. 
 
 ## Install
 

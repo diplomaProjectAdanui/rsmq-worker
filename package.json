@@ -1,6 +1,6 @@
 {
   "name": "rsmq-worker-ls",
-  "version": "0.6.3-ls",
+  "version": "0.6.4-ls",
   "description": "An updated fork of RSMQ worker",
   "keywords": [],
   "homepage": "https://github.com/mpneuried/rsmq-worker",
