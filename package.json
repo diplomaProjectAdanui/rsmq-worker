@@ -1,6 +1,6 @@
 {
   "name": "rsmq-worker-ls",
-  "version": "0.6.4-ls",
+  "version": "0.6.5-ls",
   "description": "An updated fork of RSMQ worker",
   "keywords": [],
   "homepage": "https://github.com/mpneuried/rsmq-worker",
@@ -26,9 +26,9 @@
   "dependencies": {
     "async": "^3.2.0",
     "coffeescript": "^2.5.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "mpbasic": "^0.0.18",
-    "rsmq": "^0.12.2"
+    "rsmq": "^0.12.4"
   },
   "devDependencies": {
     "coffee-coverage": "1.x",

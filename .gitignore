@@ -20,3 +20,5 @@ test.js
 /test
 /lib
 /coverage
+package-lock.json
+yarn.lock
