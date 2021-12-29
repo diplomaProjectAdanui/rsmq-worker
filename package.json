@@ -17,7 +17,9 @@
   },
   "scripts": {
     "test": "COFFEECOV_INIT_ALL=false mocha --timeout 5000 --compilers coffee:coffee-script/register --require coffee-coverage/register-istanbul _src/test/main.coffee -R spec",
-    "test-cov": "npm run test; istanbul report text-summary lcov"
+    "test-cov": "npm run test; istanbul report text-summary lcov",
+    "build": "npx grunt build",
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -28,7 +30,7 @@
     "coffeescript": "^2.5.1",
     "lodash": "^4.17.21",
     "mpbasic": "^0.0.18",
-    "rsmq": "^0.12.4"
+    "rsmq": "https://github.com/diplomaProjectAdanui/rsmq.git"
   },
   "devDependencies": {
     "coffee-coverage": "1.x",
